@@ -1,6 +1,8 @@
 import "./global.scss";
 import Footer from "./Footer";
 import Header from "./Header";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 export default function RootLayout({
   children,
@@ -10,9 +12,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
-        <main>{children}</main>
-        <Footer />
+        <Container fluid>
+          <Row>
+            <Header />
+          </Row>
+          <Row>{children}</Row>
+          <Row>
+            <Footer />
+          </Row>
+        </Container>
       </body>
     </html>
   );
