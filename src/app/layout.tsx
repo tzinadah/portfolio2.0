@@ -13,11 +13,11 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Container fluid>
-          <Row>
+          <Row className="position-fixed top-0 w-100">
             <Header />
           </Row>
           <Row>{children}</Row>
-          <Row>
+          <Row className="position-fixed bottom-0 w-100">
             <Footer />
           </Row>
         </Container>

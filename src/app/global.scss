@@ -12,8 +12,9 @@ $theme-colors: (
   "danger": #f20800,
 );
 
-.nav-link:hover {
-  color: #00b8d2 !important; 
-}
 
 @import "~bootstrap/scss/bootstrap";
+
+.link:hover{
+  color: #00b8d2 !important; 
+}
