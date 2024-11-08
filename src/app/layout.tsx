@@ -12,12 +12,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Container fluid>
-          <Row className="position-fixed top-0 w-100">
+        <Container fluid className="d-flex flex-column justify-content-between vh-100">
+          <Row className="position-sticky top-0">
             <Header />
           </Row>
-          <Row>{children}</Row>
-          <Row className="position-fixed bottom-0 w-100">
+          <Row className="">{children}</Row>
+          <Row className="">
             <Footer />
           </Row>
         </Container>
