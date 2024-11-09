@@ -16,8 +16,8 @@ export default function RootLayout({
           <Row className="position-sticky top-0">
             <Header />
           </Row>
-          <Row className="">{children}</Row>
-          <Row className="">
+          <Row>{children}</Row>
+          <Row>
             <Footer />
           </Row>
         </Container>
