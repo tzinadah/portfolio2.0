@@ -1,6 +1,6 @@
 import Col from "react-bootstrap/Col";
 import Image from "next/image";
-import personalImage from "../../assets/images/personal-image.jpg";
+import personalImage from "@/assets/images/personal-image.jpg";
 
 export default function Root() {
   return (
