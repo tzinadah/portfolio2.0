@@ -8,6 +8,7 @@ export type Project = {
   name: string;
   link: string;
   image: StaticImageData;
+  type: string;
 };
 
 export const projects: Project[] = [
@@ -15,20 +16,24 @@ export const projects: Project[] = [
     name: "Pomodoro Timer",
     link: "https://tzinadah.github.io/pomodoro-timer/",
     image: pomodoroImage,
+    type: "Front-End",
   },
   {
     name: "Markdown Editor",
     link: "https://tzinadah.github.io/markdown-editor/",
     image: markdownImage,
+    type: "Front-End",
   },
   {
     name: "Calculator",
     link: "https://tzinadah.github.io/calculator/",
     image: calculatorImage,
+    type: "Front-End",
   },
   {
     name: "Drum Machine",
     link: "https://tzinadah.github.io/drum-machine/",
     image: drumImage,
+    type: "Front-End",
   },
 ];

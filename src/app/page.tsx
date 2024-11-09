@@ -30,7 +30,7 @@ export default function Root() {
           deploying full-stack applications. Actively seeking an internship to
           gain hands-on experience.
         </p>
-        <div className="border border-4 border-primary rounded-pill m-1"></div>
+        <div className="border border-4 border-primary rounded-pill m-2"></div>
       </Col>
     </>
   );
